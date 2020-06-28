@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(to top, gray , lightgray);
+font-family: 'Merriweather';
+height: 100vh;
+ 
+}
+.container{
+   text-align: center;
+    border: 2px solid black;
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    
+  background-image: linear-gradient(to top, #29323c , #485563);
+}
+h1{
+    margin-bottom: 20px;
+    color: white;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.btnac{
+    height: 50px;
+    width:110px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.value{
+  
+    
+    margin-bottom: 20px;
+    margin-top: 0px;
+    outline: none;
+  
+    font-size: 20px;
+    
+}
+
+#result{
+    text-align: right;
+    border: 1px solid white;
+    height: 10px;
+    width: 210px;
+    outline: none;
+    border-radius: 0px 0px 20px 20px ;
+    padding: 15px;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid gray;
+    border-right: 2px solid black;
+}
+#input{
+   
+    border: 1px solid white;
+    height: 10px;
+    width: 210px;
+    outline: none;
+    border-radius: 20px 20px 0px 0px ;
+    padding: 15px;
+    font-size: 20px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid black;
+}
